@@ -138,15 +138,13 @@ const Register = () => {
             Volver al inicio de sesión
           </Link>
           
-          {/* Logo */}
-          <div className="flex items-center justify-center mb-4">
-            <div className="relative w-14 h-14 flex items-center justify-center">
-              <div className="absolute w-14 h-14 bg-gradient-to-br from-green-400 to-green-600 transform rotate-45 rounded-lg shadow-lg"></div>
-              <div className="absolute w-9 h-9 bg-gradient-to-br from-yellow-300 to-yellow-500 transform rotate-45 rounded-lg"></div>
-              <div className="relative z-10">
-                <span className="text-white font-black text-sm drop-shadow-md">CCE</span>
-              </div>
-            </div>
+          {/* Logo de Comfachocó */}
+          <div className="flex justify-center mb-4">
+            <img 
+              src="/logo-comfachoco.png" 
+              alt="Comfachocó Logo" 
+              className="h-16 w-auto object-contain"
+            />
           </div>
 
           <h1 className="text-3xl font-bold text-gray-900 text-center mb-2">

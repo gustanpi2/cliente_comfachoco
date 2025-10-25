@@ -124,11 +124,14 @@ const Navbar = ({ user, onToggleSidebar, sidebarOpen, onLogout }) => {
               {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
             
-            <div className="flex items-center cursor-pointer" onClick={() => navigate('/inicio')}>
-              <div className="bg-gradient-to-r from-green-500 to-blue-600 text-white px-3 py-1 rounded-lg font-bold text-xl">
-                C
-              </div>
-              <span className="ml-3 text-xl font-semibold text-gray-800 hidden sm:block">
+            <div className="flex items-center cursor-pointer gap-3" onClick={() => navigate('/inicio')}>
+              {/* Logo de Comfachocó */}
+              <img 
+                src="/logo-comfachoco.png" 
+                alt="Comfachocó" 
+                className="h-10 w-auto object-contain"
+              />
+              <span className="text-xl font-semibold text-gray-800 hidden sm:block">
                 Comfachocó Portal
               </span>
             </div>

@@ -55,15 +55,13 @@ const Login = ({ onLogin }) => {
         <div className="bg-white rounded-2xl shadow-2xl p-8 backdrop-blur-lg">
           {/* Logo y Título */}
           <div className="text-center mb-8">
-            {/* Logo mejorado tipo diamante/rombo */}
-            <div className="relative w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-              <div className="absolute w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 transform rotate-45 rounded-lg shadow-xl"></div>
-              <div className="absolute w-10 h-10 bg-gradient-to-br from-yellow-300 to-yellow-500 transform rotate-45 rounded-lg"></div>
-              <div className="relative z-10">
-                <span className="text-white font-black text-base drop-shadow-md tracking-tight">
-                  CCE
-                </span>
-              </div>
+            {/* Logo de Comfachocó */}
+            <div className="flex justify-center mb-4">
+              <img 
+                src="/logo-comfachoco.png" 
+                alt="Comfachocó Logo" 
+                className="h-20 w-auto object-contain"
+              />
             </div>
             
             <h1 className="text-3xl font-bold text-gray-800 mb-2">
