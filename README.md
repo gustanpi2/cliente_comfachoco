@@ -1,4 +1,4 @@
-# Rainforest Coders: Valery, Gustabo, Duvan, Karina
+# Rainforest Coders: Valery, Gustavo, Duvan, Karina
 
 ## Available Scripts
 
